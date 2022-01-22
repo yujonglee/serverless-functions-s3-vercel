@@ -1,0 +1,12 @@
+{
+  "name": "serverless-functions",
+  "version": "1.0.0",
+  "dependencies": {
+    "vercel": "^23.1.2"
+  },
+  "scripts": {
+    "setup": "yarn vercel login && yarn vercel link",
+    "start": "go mod tidy && yarn vercel dev",
+    "deploy": "yarn vercel --prod"
+  }
+}
