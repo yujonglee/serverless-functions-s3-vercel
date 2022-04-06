@@ -1,6 +1,4 @@
 # Serverless Functions
-List of Serverless Functions used in taggy.cloud
-
 ## Setup
 
 ```shell
